@@ -18,3 +18,5 @@ source ./venv/bin/activate
 
 We use Git Flow strategy
 
+
+docker run -p 8000:8000 django_test_1:latest 
