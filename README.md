@@ -12,3 +12,9 @@ python3 -m venv venv
 source ./venv/bin/activate
 ```
 
+# Contribute
+
+## Git Flow as strategy 
+
+We use Git Flow strategy
+
