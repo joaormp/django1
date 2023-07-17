@@ -1,0 +1,15 @@
+name: "Docker Build"
+on:
+  push: [develop, release/*, main]
+
+jobs:
+  build: 
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: "Run one line script"
+      run: echo "Hello World"
+
+      
+
