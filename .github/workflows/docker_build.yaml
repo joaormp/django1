@@ -1,6 +1,7 @@
 name: "Docker Build"
 on:
-  push: [develop, release/*, main]
+  push: 
+    branches: [develop, release/*, main]
 
 jobs:
   build: 
@@ -11,5 +12,5 @@ jobs:
     - name: "Run one line script"
       run: echo "Hello World"
 
-      
+
 
